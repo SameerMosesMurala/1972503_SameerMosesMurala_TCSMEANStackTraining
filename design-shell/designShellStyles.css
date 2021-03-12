@@ -1,0 +1,31 @@
+.divTemplate{
+    padding:40px ;
+    border:2px;
+    border:solid red 2px;
+    width:120px;
+    height:40px;
+    margin: 10px;
+    text-align:center;
+    font-weight: bold;
+    
+}
+
+.h2Template{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align:left;
+    text-decoration:underline;
+}
+
+.tableTemplate{
+    border: black ;
+    border-style: solid;
+    border-width: 2px;
+    background-color: wheat;
+    color: black;
+}
+
+th,td{
+    border: black solid 2px;
+}
