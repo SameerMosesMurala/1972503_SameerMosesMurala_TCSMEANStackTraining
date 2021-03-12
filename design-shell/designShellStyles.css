@@ -28,4 +28,14 @@
 
 th,td{
     border: black solid 2px;
+    color:darkred;
+    text-align: center;
+    padding:5px;
+}
+
+td{
+    border: black solid 2px;
+    color:forestgreen;
+    text-align: center;
+    padding:5px;
 }
