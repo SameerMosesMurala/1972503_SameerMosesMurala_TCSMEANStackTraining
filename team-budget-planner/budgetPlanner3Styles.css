@@ -1,0 +1,47 @@
+#employeeList{
+    border: black ;
+    border-style: solid;
+    border-width: 2px;
+    background-color: wheat;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#totalMessage{
+    background-color:burlywood;
+}
+
+th,td{
+    border: black solid 2px;
+    background-color:blue;
+    text-align: center;
+    padding:5px;
+}
+
+td{
+    border: black solid 2px;
+    background-color:lightblue;
+    text-align: center;
+    padding:5px;
+}
+
+#ftTableDiv{
+    padding:40px ;
+    border:2px;
+    border:solid black 2px;
+    width:500px;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    font-weight: bold;
+    background-color: darkgrey;
+   
+}
+
+#fTh2{
+    font-weight: bold;
+    text-align:center;
+    text-decoration:underline;
+}

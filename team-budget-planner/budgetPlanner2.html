@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Managers</title>
+    <link rel="StyleSheet" href="budgetPlanner2Styles.css">
+    <script src="budgetPlannerPMJavaScript.js"></script>
+</head>
+<body>
+   <div id="pMHeading"> <h1 id="pMHeadingh1">Program Managers</h1></div>
+   
+    <h3 id="pMh3">Add New Budget</h3>
+    <div id="pMForm">
+    <form>
+        <label>Client Name</label>
+        <input type="text" id="clientName" /><br/>
+        <label>Project Name</label>
+        <input type="text" id="projectName" /><br/>
+        <label>Budget</label>
+        <input type="text" id="budget" /><br/>
+        <input type="button" id="add" value="Add Project Details" onclick="onFormSubmit()" />
+        <input type="button" id="clear" value="Clear" onclick="resetData()" /><br/>
+       <!-- <input type="button" value="Store Total Budget" onclick="storeInSessionCost()"/>
+        <input type="button" value="Retrieve Total Budget" onclick="retrieveFromSessionCost()"/><br/> -->
+
+    </form>
+    <br/><br/>
+    <a id="pMBackLink" href="budgetPlanner1.html">Back</a>
+   </div>
+
+</body>
+</html>

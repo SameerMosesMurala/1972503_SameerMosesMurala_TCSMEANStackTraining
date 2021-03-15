@@ -1,0 +1,45 @@
+#pMForm{
+    padding:40px ;
+    border:2px;
+    border:solid black 2px;
+    width:350px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    font-weight: bold;
+    background-color: darkgrey;
+   
+}
+
+#pMHeading{
+    text-align: center;
+}
+
+#pMh3{
+    font-weight: bold;
+    text-align:center;
+    text-decoration:underline;
+}
+
+#clientName{
+    margin-left: 15px;
+}
+
+#projectName{
+    margin-left: 9px;
+}
+
+#budget{
+    margin-left: 55px;
+}
+
+#add{
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#clear{
+    padding: 5px;
+    margin-top: 10px;
+}
