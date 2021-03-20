@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="StyleSheet" href="index-Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    <div id="headingH1"><h1 >SHOPPING CART</h1></div>
+    <div id="cartSize">
+        <h3 id="cartSizeNumber"></h3>
+    </div>
+    <div id="checkout"> 
+        <a href="checkout.html" id="checkoutLink">CheckOut</a>
+    </div>
+    <div class="container-fluid">
+    <div class="row">
+     <div class="col-3">
+       <div id="ItemName">
+            <h5 id="headingH5">Name: DELL Laptop</h5>
+        </div>
+        <div id="ItemPrice">
+            <h5 id="headingH5">Price:70,000</h5>
+        </div>
+        <div id="Item1Selected"></div>
+        <div >
+            <img id="ItemImage" src="https://i.pcmag.com/imagery/roundups/04OtgLS2CSnpQsNfHODkh5S-1.1569470764.fit_lim.size_1200x630.jpg" alt="Item1Image">
+        </div>
+        <div id="buttons">
+        <input type="button" id="addItem1" value="Add Item" onclick="Item1Add()" />
+        <input type="button" id="addItem1" value="Delete Item" onclick="Item1Delete()" />
+       </div>
+    </div>
+     <div class="col-3">
+        <div id="ItemName">
+            <h5 id="headingH5">Name: Iphone</h5>
+         </div>
+         <div id="ItemPrice">
+            <h5 id="headingH5">Price: 100,000</h5>
+         </div>
+         <div id="Item2Selected"></div>
+         <div >
+            <img id="ItemImage" src="https://media.wired.com/photos/5e9f574ed42e6f0008f47b7a/master/w_2560%2Cc_limit/Gear-Top-Apple_new-iphone-se-white_04152020.jpg" alt="Item2Image">
+         </div>
+         <div id="buttons">
+         <input type="button" id="addItem2" value="Add Item" onclick="Item2Add()" />
+         <input type="button" id="deleteItem1" value="Delete Item" onclick="Item2Delete()" />
+         </div>
+      </div>
+      <div class="col-3">
+        <div id="ItemName">
+          <h5 id="headingH5">Name: IWatch</h5>
+         </div>
+         <div id="ItemPrice">
+          <h5 id="headingH5">Price: 50,000</h5>
+         </div>
+         <div id="Item3Selected"></div>
+         <div >
+             <img id="ItemImage" src="https://www.dictionary.com/e/wp-content/uploads/2018/06/iwatch.jpg" alt="Item3Image">
+         </div>
+         <div id="buttons">
+         <input type="button" id="addItem3" value="Add Item" onclick="Item3Add()" />
+         <input type="button" id="deleteItem1" value="Delete Item" onclick="Item3Delete()" />
+         </div>
+      </div>
+    </div>
+
+    <div class="row">
+        
+        <div class="col-3">
+           <div id="ItemName">
+             <h5 id="headingH5">Name: FitBit</h5>
+            </div>
+            <div id="ItemPrice">
+                <h5 id="headingH5">Price: 20,000</h5>
+            </div>
+            <div id="Item4Selected"></div>
+            <div >
+               <img id="ItemImage" src="https://cnet3.cbsistatic.com/img/carX4o7G-7MnP1LxSUs-aG92FLU=/1200x630/2018/03/23/e6c01cad-1c66-4410-8875-c6336ff3a117/fitbit-versa-5708.jpg" alt="Item4Image">
+            </div>
+            <div id="buttons">
+            <input type="button" id="addItem4" value="Add Item" onclick="Item4Add()" />
+            <input type="button" id="deleteItem1" value="Delete Item" onclick="Item4Delete()" />
+            </div>
+         </div>
+         <div class="col-3">
+            <div id="ItemName">
+              <h5 id="headingH5">Name: Fossil Watch</h5>
+             </div>
+             <div id="ItemPrice">
+              <h5 id="headingH5">Price:50,000</h5>
+             </div>
+             <div id="Item5Selected"></div>
+             <div >
+                 <img id="ItemImage" src="https://www.fossil.com/on/demandware.static/-/Library-Sites-FossilSharedLibrary/default/dw0f89b3bf/2021/SP21/set_0215/watches/0215_WatchesDGP_Card6_Mobile_X3.png" alt="Item5Image">
+             </div>
+             <div id="buttons">
+             <input type="button" id="addItem5" value="Add Item" onclick="Item5Add()" />
+             <input type="button" id="deleteItem1" value="Delete Item" onclick="Item5Delete()" />
+             </div>
+          </div>
+          <div class="col-3">
+             <div id="ItemName">
+                <h5 id="headingH5">Name:Lenonvo ThinkPad</h5>
+              </div>
+              <div id="ItemPrice">
+                  <h5 id="headingH5">Price:40,000</h5>
+              </div>
+              <div id="Item6Selected"></div>
+              <div >
+                 <img id="ItemImage" src="https://www.notebookcheck.net/uploads/tx_nbc2/csm_DSC03447_74da5d8438.jpg" alt="Item6Image">
+              </div>
+              <div id="buttons">
+              <input type="button" id="addItem6" value="Add Item" onclick="Item6Add()" />
+              <input type="button" id="deleteItem1" value="Delete Item" onclick="Item6Delete()" />
+              </div>
+           </div>
+         </div>
+       </div>
+
+<script src="cartManagement.js"></script>   
+</body>
+</html>
