@@ -1,0 +1,32 @@
+<div id="signupHeading">
+    <h2>
+        Registration Form
+    </h2>
+</div>
+    <div id="loginLinkDiv">
+    <a id="loginLink" routerLink="../login" >Login</a>
+ </div>
+ <div class="formDiv">
+ <form [formGroup]="sigupRef" (ngSubmit)="addUser()">
+    <div class="form-group col-md-6">
+     <label>FirstName</label>
+     <input class="form-control" type="text" formControlName="firstName"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <label>LastName</label>
+     <input class="form-control" type="text" formControlName="lastName"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <label>UserName</label>
+     <input class="form-control" type="text" formControlName="userName"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <label>Password</label>
+     <input class="form-control" type="password" formControlName="password"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <input class="btn btn-primary" type="submit" value="Register"/>
+     <input class="btn btn-primary" type="reset" value="Reset"/>
+     </div>
+ </form>
+ </div>

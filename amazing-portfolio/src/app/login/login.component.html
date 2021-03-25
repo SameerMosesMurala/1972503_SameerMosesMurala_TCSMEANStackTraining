@@ -1,0 +1,23 @@
+<div id="loginHeading">
+    <h2>
+        Login Form 
+    </h2>
+ </div>
+ <div class="formDiv">
+ <form [formGroup]="loginRef" (ngSubmit)="loginUser()">
+    <div class="form-group col-md-6">
+     <label>UserName</label>
+     <input class="form-control" type="text" formControlName="userName"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <label>Password</label>
+     <input class="form-control" type="password" formControlName="password"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <input class="btn btn-primary" type="submit" value="Login"/>
+     </div>
+ </form>
+</div>
+<div id="signUpLinkDiv">
+ <a id="signUpLink" routerLink="../signup" >SignUp</a>
+ </div>

@@ -1,0 +1,43 @@
+<div id="portfolioHeading">
+    <h2>
+        My Portfolio
+    </h2>
+    <span><a routerLink="../login" >LogOut</a></span>
+ </div>
+ <div>
+     <h4>Welcome:{{userName}}</h4>
+ </div>
+ <div class="formDiv">
+ <form [formGroup]="portfolioRef" (ngSubmit)="addContact()">
+    <div class="form-row">
+    <div class="form-group col-md-6">
+     <label>Contact Name</label>
+     <input class="form-control" type="text" formControlName="firstName"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <label>Phone Number</label>
+     <input class="form-control" type="text" formControlName="phoneNumber"/><br/>
+     </div>
+     <div class="form-group col-md-6">
+     <input type="submit" class="btn btn-primary" value="Save"/>
+     <input type="reset" class="btn btn-primary" value="Reset"/>
+     </div>
+     </div>
+ </form>
+ </div>
+ <div id="checkoutTableDiv">
+    <table id="checkoutTable">
+        <thead>
+            <tr>
+               <th>Name</th>
+               <th>PhoneNumber</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr *ngFor = "let row of contactList">
+                <td *ngFor = "let column of headers">
+                    {{row[column]}}
+                </td>
+              </tr>
+        </tbody>
+    </table>

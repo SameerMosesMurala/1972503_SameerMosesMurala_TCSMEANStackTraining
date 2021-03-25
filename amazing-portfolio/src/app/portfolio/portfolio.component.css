@@ -1,0 +1,58 @@
+#checkoutTable{
+    border: black ;
+    border-style: solid;
+    border-width: 2px;
+    background-color:skyblue;
+    color: black;
+    margin-left: 100px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+#portfolioHeading{
+        font-weight: bold;
+        text-align:center;
+        text-decoration:underline;
+}
+
+th,td{
+    border: black solid 2px;
+    background-color:rgb(0, 0, 255);
+    text-align: center;
+    padding:5px;
+}
+
+td{
+    border: black solid 2px;
+    background-color:lightblue;
+    text-align: center;
+    padding:5px;
+}
+
+#checkoutTableDiv{
+    padding:40px ;
+    border-radius: 20px;
+     margin: 0 auto;
+    text-align:center;
+    text-align:center;
+    font-weight: bold;  
+}
+
+.form-row{
+        padding:40px ;
+        border-radius: 20px;
+        margin: 0 auto;
+        text-align:center;
+        font-weight: bold;
+        background-color: rgb(62, 99, 129);
+       width: 500px;
+}
+
+.form-group{
+    margin: 0 auto;
+        text-align:center;
+}
+
+h4{
+    text-align: center;
+}
