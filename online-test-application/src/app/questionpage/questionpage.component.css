@@ -1,0 +1,49 @@
+#questionForm{
+    padding:40px ;
+    border-radius: 20px;
+    margin-left:5%;
+    margin-bottom:15px;
+    font-weight: bold;
+    background-color:rgb(173, 216, 230,0.5);
+    width: 85%;
+}
+
+#questionPageHeading{
+    font-weight: bold;
+    text-align:center;
+    text-decoration:underline;
+}
+
+#buttonID{
+    padding:10px ;
+    margin-left: 10px;
+}
+
+#buttonDiv{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;    
+}
+
+#answersDiv{
+    border-radius: 20px;
+    margin-left:5%;
+    margin-bottom:15px;
+    font-weight: bold;
+    background-color:rgba(10, 168, 241, 0.3);
+    width: 85%;
+}
+
+#eachAnswer{
+    margin-left: 25%;
+}
+
+#resultDiv{
+    border-radius: 20px;
+    margin-left:5%;
+    margin-bottom:15px;
+    font-weight: bold;
+    background-color:rgba(10, 168, 241, 0.3);
+    width: 85%;
+    text-align:center;
+}

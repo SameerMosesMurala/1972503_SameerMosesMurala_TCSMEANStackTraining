@@ -1,0 +1,19 @@
+#startPageHeading{
+    font-weight: bold;
+    text-align:center;
+    text-decoration:underline;
+}
+
+#signUpLinkDiv{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#startPageDiv{
+    background-color:rgba(10, 168, 241, 0.3);
+    width: 85%;
+    border-radius: 20px;
+    margin-left:5%;
+    margin-top: 2%;
+    padding: 10px;
+}

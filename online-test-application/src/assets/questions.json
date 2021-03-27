@@ -1,0 +1,22 @@
+[
+    {"id":1,"question":"What is the longest that an elephant has ever lived?",
+        "option1":"17years","option2":"49years","option3":"86years","option4":"142years","correctoption":"86years"},
+    {"id":2,"question":"How many rings are on the Olympic flag?",
+        "option1":"None","option2":"4","option3":"5","option4":"7","correctoption":"5"},
+    {"id":3,"question":"What is a tarsier?",
+            "option1":"A primate","option2":"A lizard","option3":"A bird","option4":"A mammal","correctoption":"A primate"},
+    {"id":4,"question":"How did Spider-Man get his powers?",
+            "option1":"Born with them","option2":"Millitary Experiment gone wrong","option3":"Woke with them after a strange dream","option4":"Bitten by a radiaoactive spider","correctoption":"Bitten by a radiaoactive spider"},
+    {"id":5,"question":"In darts, what's the most points you can score with a single throw?",
+            "option1":"20","option2":"50","option3":"60","option4":"100","correctoption":"60"},
+    {"id":6,"question":"Which of these animals does NOT appear in the Chinese zodiac?",
+            "option1":"Bear","option2":"Rabbit","option3":"Dragon","option4":"Dog","correctoption":"Bear"},
+    {"id":7,"question":"Who are known as Brahmins?",
+            "option1":"Surfers in California","option2":"Members of India's highest caste","option3":"its a totally made up word","option4":"non-vegetarians","correctoption":"Members of India's highest caste"},
+    {"id":8,"question":"How many holes are on a standard bowling ball?",
+            "option1":"2","option2":"3","option3":"5","option4":"10","correctoption":"3"},
+    {"id":9,"question":" In the nursery rhyme, how many blackbirds were baked in a pie?",
+            "option1":"4","option2":"11","option3":"24","option4":"99","correctoption":"24"},
+    {"id":10,"question":"Who killed Greedo?",
+            "option1":"Hannibal Lecter","option2":"Han Solo","option3":"Hermonie Granger","option4":"Hercules","correctoption":"Han Solo"}
+]
