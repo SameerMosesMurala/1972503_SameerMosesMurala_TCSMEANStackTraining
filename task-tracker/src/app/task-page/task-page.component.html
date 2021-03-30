@@ -1,0 +1,56 @@
+<div>
+    <h2>Task Tracker</h2>
+    <hr>
+    <div id="tasksFormDiv">
+    <h4 id="toDoTasks">To-Do-Tasks</h4>
+    <form id="tasksForm"  #taskRef="ngForm" (ngSubmit)="storeTask(taskRef.value)">
+        <mat-form-field>
+            <mat-label>Id</mat-label>
+            <input matInput type="text" name="id" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput type="text" name="name" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+            <mat-label>Task</mat-label>
+            <input matInput type="text" name="task" ngModel/>
+        </mat-form-field>
+        <br/>
+        <mat-form-field>
+            <mat-label>Deadline</mat-label>
+            <input matInput type="text" name="deadline" ngModel/>
+        </mat-form-field>
+        <br/>
+        <button mat-stroked-button color="primary" 
+        style="background-color:rgb(0, 81, 255,0.7);color:white" type="submit">Store Task</button>
+        <button mat-stroked-button color="primary" 
+        style="background-color:rgb(0, 81, 255,0.7);color:white" type="reset">Reset</button>
+    </form>
+   <!--<button mat-stroked-button color="primary" 
+        style="background-color:darkorange;" (click)="deleteTasks()">Delete Task</button>-->
+</div>
+<div id="toDoListsDiv">
+<h4 id="toDoLists">To-Do-Lists</h4>
+<div id="checkoutTableDiv">
+    <table mat-table id="checkoutTable" class="mat-elevation-z8">
+        <thead>
+            <tr>
+               <th mat-header-cell>ID</th>
+               <th mat-header-cell>Name</th>
+               <th mat-header-cell>Task</th>
+               <th mat-header-cell>DeadLine</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr *ngFor = "let row of tasksData">
+                <td mat-cell *ngFor = "let column of headers">
+                    {{row[column]}}
+                </td>
+              </tr>
+        </tbody>
+    </table>
+</div>
+</div>
