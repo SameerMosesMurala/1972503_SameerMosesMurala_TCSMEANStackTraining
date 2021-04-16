@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/JavaScript">
+        var socket = io();     
+        var browserMessage="Hello";
+        function sendMessage() {
+            var name=document.getElementById("name").value;
+            var message=document.getElementById("message").value;
+            socket.emit("chat",`${name}`+"content"+`${message}`);
+        }
+        </script>
+   
+</head>
+<body>
+    <h1>Socket IO Chat Application</h1>
+    <form onsubmit="sendMessage()">
+        <label>Name</label>
+        <input type="text" id="name" name="name"/><br/>
+        <label>Message</label>
+        <input type="text" id="message" name="message"/><br/>
+        <input type="submit" value="Send Message">
+        <input type="reset" value="reset">
+    </form>
+
+</html>
